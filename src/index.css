@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Outfit', 'Noto Sans Ethiopic', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  }
+  
+  .font-amharic {
+    font-family: 'Noto Sans Ethiopic', sans-serif;
+  }
+}
+
+@media print {
+  /* Hide non-printable UI elements */
+  nav, header, aside, .no-print, button, input, select, textarea, .banner, .tab-buttons {
+    display: none !important;
+  }
+  
+  body {
+    background: white !important;
+    color: black !important;
+    font-size: 12pt;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .printable-area {
+    display: block !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 1.5cm !important;
+    box-shadow: none !important;
+    border: none !important;
+  }
+  
+  .page-break {
+    page-break-before: always;
+  }
+}

@@ -1,0 +1,55 @@
+import { FidelRow } from '../types';
+
+export const FIDEL_ORDERS = [
+  { order: 1, name: 'ግዕዝ (Gəʽəz)', vowel: 'ä', sound: 'uh / eh', sample: 'ሀ (hä)' },
+  { order: 2, name: 'ካዕብ (Kaʽəb)', vowel: 'u', sound: 'oo', sample: 'ሁ (hu)' },
+  { order: 3, name: 'ሳልስ (Saləs)', vowel: 'i', sound: 'ee', sample: 'ሂ (hi)' },
+  { order: 4, name: 'ራብዕ (Rabəʽ)', vowel: 'a', sound: 'ah', sample: 'ሃ (ha)' },
+  { order: 5, name: 'ኃምስ (Haməs)', vowel: 'e', sound: 'ay', sample: 'ሄ (he)' },
+  { order: 6, name: 'ሳድስ (Sadəs)', vowel: 'ə', sound: 'ih / silent', sample: 'ህ (h/hə)' },
+  { order: 7, name: 'ሳብዕ (Sabəʽ)', vowel: 'o', sound: 'oh', sample: 'ሆ (ho)' },
+];
+
+export const FIDEL_DATA: FidelRow[] = [
+  { name: 'ሀሌታው ሀ (Halle Ha)', transliteration: 'h', order1: 'ሀ', order2: 'ሁ', order3: 'ሂ', order4: 'ሃ', order5: 'ሄ', order6: 'ህ', order7: 'ሆ' },
+  { name: 'ለ', transliteration: 'l', order1: 'ለ', order2: 'ሉ', order3: 'ሊ', order4: 'ላ', order5: 'ሌ', order6: 'ል', order7: 'ሎ' },
+  { name: 'ሐመሩ ሐ (Hameru Hha)', transliteration: 'ḥ', order1: 'ሐ', order2: 'ሑ', order3: 'ሒ', order4: 'ሓ', order5: 'ሔ', order6: 'ሕ', order7: 'ሖ' },
+  { name: 'መ', transliteration: 'm', order1: 'መ', order2: 'ሙ', order3: 'ሚ', order4: 'ማ', order5: 'ሜ', order6: 'ም', order7: 'ሞ' },
+  { name: 'ሠውቱ ሠ (Säwtu Ssa)', transliteration: 'ś', order1: 'ሠ', order2: 'ሡ', order3: 'ሢ', order4: 'ሣ', order5: 'ሤ', order6: 'ሥ', order7: 'ሦ' },
+  { name: 'ረ', transliteration: 'r', order1: 'ረ', order2: 'ሩ', order3: 'ሪ', order4: 'ራ', order5: 'ሬ', order6: 'ር', order7: 'ሮ' },
+  { name: 'ንጉሡ ሰ (Nəgusu Sa)', transliteration: 's', order1: 'ሰ', order2: 'ሱ', order3: 'ሲ', order4: 'ሳ', order5: 'ሴ', order6: 'ስ', order7: 'ሶ' },
+  { name: 'ሸ', transliteration: 'sh', order1: 'ሸ', order2: 'ሹ', order3: 'ሺ', order4: 'ሻ', order5: 'ሼ', order6: 'ሽ', order7: 'ሾ' },
+  { name: 'ቀ', transliteration: 'q', order1: 'ቀ', order2: 'ቁ', order3: 'ቂ', order4: 'ቃ', order5: 'ቄ', order6: 'ቅ', order7: 'ቆ' },
+  { name: 'በ', transliteration: 'b', order1: 'በ', order2: 'ቡ', order3: 'ቢ', order4: 'ባ', order5: 'ቤ', order6: 'ብ', order7: 'ቦ' },
+  { name: 'ተ', transliteration: 't', order1: 'ተ', order2: 'ቱ', order3: 'ቲ', order4: 'ታ', order5: 'ቴ', order6: 'ት', order7: 'ቶ' },
+  { name: 'ቸ', transliteration: 'ch', order1: 'ቸ', order2: 'ቹ', order3: 'ቺ', order4: 'ቻ', order5: 'ቼ', order6: 'ች', order7: 'ቾ' },
+  { name: 'ኀብዙ ኀ (Harm Ḫa)', transliteration: 'ḫ', order1: 'ኀ', order2: 'ኁ', order3: 'ኂ', order4: 'ኃ', order5: 'ኄ', order6: 'ኅ', order7: 'ኆ' },
+  { name: 'ነ', transliteration: 'n', order1: 'ነ', order2: 'ኑ', order3: 'ኒ', order4: 'ና', order5: 'ኔ', order6: 'ን', order7: 'ኖ' },
+  { name: 'ኘ', transliteration: 'gn / ñ', order1: 'ኘ', order2: 'ኙ', order3: 'ኚ', order4: 'ኛ', order5: 'ኜ', order6: 'ኝ', order7: 'ኞ' },
+  { name: 'አልፉ አ (Alfu A)', transliteration: 'ʾ / a', order1: 'አ', order2: 'ኡ', order3: 'ኢ', order4: 'ኣ', order5: 'ኤ', order6: 'እ', order7: 'ኦ' },
+  { name: 'ከ', transliteration: 'k', order1: 'ከ', order2: 'ኩ', order3: 'ኪ', order4: 'ካ', order5: 'ኬ', order6: 'ክ', order7: 'ኮ' },
+  { name: 'ኸ', transliteration: 'kh', order1: 'ኸ', order2: 'ኹ', order3: 'ኺ', order4: 'ኻ', order5: 'ኼ', order6: 'ኽ', order7: 'ኾ' },
+  { name: 'ወ', transliteration: 'w', order1: 'ወ', order2: 'ዉ', order3: 'ዊ', order4: 'ዋ', order5: 'ዌ', order6: 'ው', order7: 'ዎ' },
+  { name: 'ዐይን ዐ (Aynu A)', transliteration: 'ʿ', order1: 'ዐ', order2: 'ዑ', order3: 'ዒ', order4: 'ዓ', order5: 'ዔ', order6: 'ዕ', order7: 'ዖ' },
+  { name: 'ዘ', transliteration: 'z', order1: 'ዘ', order2: 'ዙ', order3: 'ዚ', order4: 'ዛ', order5: 'ዜ', order6: 'ዝ', order7: 'ዞ' },
+  { name: 'ዠ', transliteration: 'zh', order1: 'ዠ', order2: 'ዡ', order3: 'ዢ', order4: 'ዣ', order5: 'ዤ', order6: 'ዥ', order7: 'ዦ' },
+  { name: 'የ', transliteration: 'y', order1: 'የ', order2: 'ዩ', order3: 'ዪ', order4: 'ያ', order5: 'ዬ', order6: 'ይ', order7: 'ዮ' },
+  { name: 'ደ', transliteration: 'd', order1: 'ደ', order2: 'ዱ', order3: 'ዲ', order4: 'ዳ', order5: 'ዴ', order6: 'ድ', order7: 'ዶ' },
+  { name: 'ጀ', transliteration: 'j', order1: 'ጀ', order2: 'ጁ', order3: 'ጂ', order4: 'ጃ', order5: 'ጄ', order6: 'ጅ', order7: 'ጆ' },
+  { name: 'ገ', transliteration: 'g', order1: 'ገ', order2: 'ጉ', order3: 'ጊ', order4: 'ጋ', order5: 'ጌ', order6: 'ግ', order7: 'ጎ' },
+  { name: 'ጠ', transliteration: 'tʼ', order1: 'ጠ', order2: 'ጡ', order3: 'ጢ', order4: 'ጣ', order5: 'ጤ', order6: 'ጥ', order7: 'ጦ' },
+  { name: 'ጨ', transliteration: 'chʼ', order1: 'ጨ', order2: 'ጩ', order3: 'ጪ', order4: 'ጫ', order5: 'ጬ', order6: 'ጭ', order7: 'ጮ' },
+  { name: 'ጰ', transliteration: 'pʼ', order1: 'ጰ', order2: 'ጱ', order3: 'ጲ', order4: 'ጳ', order5: 'ጴ', order6: 'ጵ', order7: 'ጶ' },
+  { name: 'ጸሎቱ ጸ (Tselotu Tsa)', transliteration: 'tsʼ', order1: 'ጸ', order2: 'ጹ', order3: 'ጺ', order4: 'ጻ', order5: 'ጼ', order6: 'ጽ', order7: 'ጾ' },
+  { name: 'ፀሐዩ ፀ (Tsehäyu Tsa)', transliteration: 'tsʼ', order1: 'ፀ', order2: 'ፁ', order3: 'ፂ', order4: 'ፃ', order5: 'ፄ', order6: 'ፅ', order7: 'ፆ' },
+  { name: 'ፈ', transliteration: 'f', order1: 'ፈ', order2: 'ፉ', order3: 'ፊ', order4: 'ፋ', order5: 'ፌ', order6: 'ፍ', order7: 'ፎ' },
+  { name: 'ፐ', transliteration: 'p', order1: 'ፐ', order2: 'ፑ', order3: 'ፒ', order4: 'ፓ', order5: 'ፔ', order6: 'ፕ', order7: 'ፖ' },
+];
+
+export const COMMON_PROVERBS = [
+  { amharic: 'ድር ቢያብር አንበሳ ያስር።', phonetic: 'Dər biyabər anbesa yasər.', english: 'When spider webs unite, they can tie up a lion. (Unity is strength)' },
+  { amharic: 'ቀስ በቀስ  Data/እንቁላል በእግሯ ትሄዳለች።', phonetic: 'Qäs bäqäs ənqulal bä’əgrwa təhedalläch.', english: 'Slowly by slowly, even an egg walks on its feet. (Patience achieves the impossible)' },
+  { amharic: 'ካለፈው ትምህርት፣ ለሚመጣው ብልህነት።', phonetic: 'Kaläfäw təmhərt, lämimät’aw bələhnät.', english: 'Learn from what passed, gain wisdom for what comes.' },
+  { amharic: 'ሰው በሰውነቱ ይከበራል።', phonetic: 'Säw bäsäwnätu yəkəbbäral.', english: 'A person is respected solely for their humanity.' },
+  { amharic: 'ከመናገር በፊት ማሰብ፣ ከመዝራት በፊት ማረስ።', phonetic: 'Kämänagär bäfit masäb, kämäzrat bäfit maräs.', english: 'Think before speaking, plow before sowing.' },
+];

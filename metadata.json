@@ -1,0 +1,8 @@
+{
+  "name": "Remix Amharic Teacher Helper AI - የፊደል እና ትምህርት ረዳት",
+  "description": "AI assistant for Ethiopian teachers and educators. Generate 5-day weekly unit lesson plans, daily lesson plans, worksheets, quizzes, Fidel charts, grammar drills, stories, and Word .docx exports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
